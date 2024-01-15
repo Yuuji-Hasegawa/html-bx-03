@@ -10,6 +10,10 @@
     align-items: center;
   }
 
+  &--gap-s {
+    gap: setting.f-space-px(s);
+  }
+
   &--header-logo,
   &--footer-logo {
     gap: setting.f-space-px(s);
@@ -58,14 +62,6 @@
 .o-icon {
   font-size: setting.f-font-emsize(2xs);
   line-height: setting.f-lineheight(none);
-
-  .o-icon-parent--header-logo & {
-    font-size: clamp(
-      map.get(setting.$fontRemSize, 3xl),
-      (setting.breakpoints(overm)),
-      map.get(setting.$fontRemSize, 4xl)
-    );
-  }
 
   .o-icon-parent--footer-logo & {
     font-size: clamp(

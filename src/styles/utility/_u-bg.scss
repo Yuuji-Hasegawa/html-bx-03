@@ -1,4 +1,5 @@
 @use "../settings" as setting;
+@use "sass:map";
 
 .u-bg-primary {
   color: var(--c-text-on-fill);
@@ -18,4 +19,13 @@
 .u-bg-qua {
   color: var(--c-text-body);
   background: var(--c-bg-qua);
+}
+
+.u-bg-gradient {
+  color: map.get(setting.$sys-light, surfaceContainerLowest);
+  background: linear-gradient(
+    to bottom,
+    map.get(setting.$sys-light, primary) 0%,
+    map.get(setting.$sys-dark, onprimary) 100%
+  );
 }

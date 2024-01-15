@@ -13,6 +13,10 @@
     align-items: center;
   }
 
+  &--gap-none {
+    gap: 0;
+  }
+
   &--gap-s {
     gap: setting.f-space-px(s);
   }

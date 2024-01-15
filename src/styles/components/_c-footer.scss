@@ -1,6 +1,21 @@
 @use "../settings" as setting;
+@use "sass:map";
 
 .c-footer {
   position: sticky;
   top: 100svh;
+}
+
+.c-ft-item {
+  min-width: min(setting.breakpoints(unders), calc(50% - (setting.f-space-px(m) * 0.5)));
+}
+
+.c-ft-link {
+  padding: clamp(setting.f-space-px(s), (setting.breakpoints(overm)), setting.f-space-px(m));
+  color: currentcolor;
+
+  &:hover,
+  &:focus {
+    background-color: color-mix(in oklab, var(--c-brand-shade), map.get(setting.$sys-light, primary) 15%);
+  }
 }

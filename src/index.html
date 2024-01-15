@@ -12,9 +12,9 @@
   </head>
   <body>
     <header class="o-center c-header u-bg-qua">
-      <a href="#" class="o-icon-parent o-icon-parent--center o-icon-parent--header-logo">
+      <a href="#" class="o-icon-parent o-icon-parent--center o-icon-parent--gap-s c-logo-link c-logo-link--header">
         <svg
-          class="o-icon"
+          class="o-icon c-display-l"
           width="670"
           height="403"
           viewBox="0 0 670 403"
@@ -37,44 +37,237 @@
           <path d="M167.497 134.035L251.245 0L334.993 134.045L167.497 134.035Z" fill="#73B2E2" />
           <path d="M251.225 0L167.498 134.035L83.749 0H251.225Z" fill="#65A5DA" />
         </svg>
-        <span class="c-logo-label c-logo-label--header u-font-logo u-flex-shrink-none">BLUE B NOSE</span>
+        <span class="c-logo-label c-logo-label--header c-display-m u-font-logo u-flex-shrink-none">BLUE B NOSE</span>
       </a>
-      <nav id="gnav" class="c-gnav" aria-hidden="false" tabindex="">
-        <ul class="o-cluster">
-          <li class="c-gnav-item"><a class="c-gnav-link c-content-l u-text-weight-b" href="#">トップ</a></li>
-          <li class="c-gnav-item"><a class="c-gnav-link c-content-l u-text-weight-b" href="#">会社情報</a></li>
-          <li class="c-gnav-item"><a class="c-gnav-link c-content-l u-text-weight-b" href="#">ブログ</a></li>
-          <li class="c-gnav-item"><a class="c-gnav-link c-content-l u-text-weight-b" href="#">お知らせ</a></li>
-          <li class="c-gnav-item"><a class="c-gnav-link c-content-l u-text-weight-b" href="#">お問い合わせ</a></li>
-        </ul>
-      </nav>
       <button
         type="button"
         class="o-box o-box--button o-box--square-button o-box--menu-btn u-pc-none u-block-right"
         aria-label="menu open"
-        aria-controls="gnav"
-        aria-expanded="true"
+        aria-controls="spMenu"
+        aria-expanded="false"
       >
         <span class="c-menu-bars"></span>
       </button>
     </header>
-    <main>
-      <div class="c-puton c-puton--filter">
-        <picture class="o-frame o-frame--switch-l">
-          <source type="image/avif" srcset="/img/hero.avif" />
-          <source type="image/webp" srcset="/img/hero.webp" />
-          <img src="/img/hero.png" width="100%" height="100%" decoding="async" fetchpriority="high" alt="" />
-        </picture>
-        <div class="c-puton__inner o-cover">
-          <h1 class="c-hero-copy o-cover__middle">
-            <span class="c-display-m u-text-weight-b">ビジネスをもっと青く</span>
-            <span class="c-display-l u-font-logo">BLUE B NOSE</span>
-          </h1>
-        </div>
+    <nav class="o-center u-bg-qua u-pc-only u-pb-m">
+      <ul class="o-cluster o-cluster--center o-cluter--gap-none">
+        <li><a href="#" class="c-pc-link c-display-s u-pl-m u-pr-m u-text-weight-m u-font-en-con">HOME</a></li>
+        <li><a href="#" class="c-pc-link c-display-s u-pl-m u-pr-m u-text-weight-m u-font-en-con">PRODUCT</a></li>
+        <li><a href="#" class="c-pc-link c-display-s u-pl-m u-pr-m u-text-weight-m u-font-en-con">GALLERY</a></li>
+        <li><a href="#" class="c-pc-link c-display-s u-pl-m u-pr-m u-text-weight-m u-font-en-con">ABOUT US</a></li>
+        <li><a href="#" class="c-pc-link c-display-s u-pl-m u-pr-m u-text-weight-m u-font-en-con">INQUIRY</a></li>
+      </ul>
+    </nav>
+    <div id="spMenu" class="c-sp-menu" aria-hidden="true" tabindex="-1">
+      <div class="o-center c-header u-mb-m">
+        <a href="#" class="o-icon-parent o-icon-parent--center o-icon-parent--gap-s c-logo-link c-logo-link--header">
+          <svg
+            class="o-icon c-display-l"
+            width="670"
+            height="403"
+            viewBox="0 0 670 403"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M586.221 268.039L502.504 402.075L418.733 268.039H586.221Z" fill="#69AEE0" />
+            <path d="M334.996 402.075L418.744 268.029L502.492 402.075H334.996Z" fill="#70B1E1" />
+            <path d="M418.723 268.039L334.996 402.075L251.246 268.039H418.723Z" fill="#92CAEF" />
+            <path d="M167.497 402.075L251.245 268.029L334.993 402.075H167.497Z" fill="#92CAEF" />
+            <path d="M0 402.075L83.7487 268.039L167.497 402.085L0 402.075Z" fill="#7EBAE6" />
+            <path d="M670 134.035L586.252 268.039L502.491 134.035H670Z" fill="#85C1EB" />
+            <path d="M418.743 268.039L502.481 134.035L586.218 268.039H418.743Z" fill="#7EBAE6" />
+            <path d="M502.492 134.035L418.744 268.039L334.996 134.035H502.492Z" fill="#7BB8E5" />
+            <path d="M251.246 268.039L334.996 134.035L418.723 268.039H251.246Z" fill="#85C1EB" />
+            <path d="M334.993 134.035L251.245 268.039L167.497 134.035H334.993Z" fill="#73B2E2" />
+            <path d="M83.749 268.039L167.498 134.035L251.225 268.039H83.749Z" fill="#67A0D3" />
+            <path d="M502.491 134.035L586.231 0L669.989 134.045L502.491 134.035Z" fill="#99D2F3" />
+            <path d="M334.996 134.035L418.744 0L502.492 134.045L334.996 134.035Z" fill="#82BEE9" />
+            <path d="M167.497 134.035L251.245 0L334.993 134.045L167.497 134.035Z" fill="#73B2E2" />
+            <path d="M251.225 0L167.498 134.035L83.749 0H251.225Z" fill="#65A5DA" />
+          </svg>
+          <span class="c-logo-label c-logo-label--header c-display-m u-font-logo u-flex-shrink-none">BLUE B NOSE</span>
+        </a>
+        <button
+          type="button"
+          class="o-box o-box--button o-box--square-button o-box--menu-btn u-pc-none u-block-right"
+          aria-label="menu open"
+          aria-controls="spMenu"
+          aria-expanded="false"
+        >
+          <span class="c-menu-bars"></span>
+        </button>
       </div>
+      <nav class="u-mb-m">
+        <ul class="o-stack">
+          <li><a class="c-sp-link c-content-l u-text-weight-b" href="#">HOME</a></li>
+          <li><a class="c-sp-link c-content-l u-text-weight-b" href="#">PRODUCT</a></li>
+          <li><a class="c-sp-link c-content-l u-text-weight-b" href="#">GALLERY</a></li>
+          <li><a class="c-sp-link c-content-l u-text-weight-b" href="#">ABOUT US</a></li>
+          <li><a class="c-sp-link c-content-l u-text-weight-b" href="#">INQUIRY</a></li>
+        </ul>
+      </nav>
+      <ul class="o-stack u-mb-m">
+        <li><a class="c-sp-link c-content-m u-text-weight-m" href="#">COMPANY</a></li>
+        <li><a class="c-sp-link c-content-m u-text-weight-m" href="#">TERM OF USE</a></li>
+        <li><a class="c-sp-link c-content-m u-text-weight-m" href="#">PRIVACY POLICY</a></li>
+      </ul>
+      <div class="c-sidebar-bottom u-pb-2xl u-bg-gradient">
+        <h3 class="c-display-s u-text-weight-m u-font-en-con">Follow Us</h3>
+        <div class="o-cluster u-mb-m">
+          <a class="c-sns-link c-display-m" href="https://www.facebook.com/" target="_blank" rel="noopener">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <a class="c-sns-link c-display-m" href="https://twitter.com/" target="_blank" rel="noopener">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <a class="c-sns-link c-display-m" href="https://twitter.com/" target="_blank" rel="noopener">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <a class="c-sns-link c-display-m" href="https://www.instagram.com/" target="_blank" rel="noopener">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <a class="c-sns-link c-display-m" href="https://www.youtube.com/" target="_blank" rel="noopener">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <p class="c-suppl-m u-font-en-con">©︎ exapmles.com</p>
+      </div>
+    </div>
+    <main>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="c-puton c-puton--filter">
+              <picture class="o-frame o-frame--switch-l">
+                <source type="image/avif" srcset="/img/hero.avif" />
+                <source type="image/webp" srcset="/img/hero.webp" />
+                <img src="/img/hero.png" decoding="async" width="100%" height="100%" fetchpriority="high" alt="" />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <h1 class="c-hero-copy o-cover__middle">
+                  <span class="c-display-m u-text-weight-b">ビジネスをもっと青く</span>
+                  <span class="c-display-l u-font-logo">BLUE B NOSE</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <!-- // Slide -->
+          <div class="swiper-slide">
+            <div class="c-puton c-puton--filter">
+              <picture class="o-frame o-frame--switch-l">
+                <source type="image/avif" srcset="/img/slider-img02.avif" />
+                <source type="image/webp" srcset="/img/slider-img02.webp" />
+                <img
+                  src="/img/slider-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="c-hero-copy o-cover__middle">
+                  <span class="c-display-m u-text-weight-b u-mb-l"
+                    >季節の新商品<br class="u-pc-only" />入荷しました</span
+                  >
+                  <a href="#" class="o-box o-box--button o-box--rect-button o-box--slide-btn u-max-item u-block-center">
+                    <span class="o-icon-parent o-icon-parent--center c-display-s">
+                      <span class="u-font-en-con">PRODUCT</span>
+                      <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                        <path
+                          d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- // Slide -->
+          <div class="swiper-slide">
+            <div class="c-puton c-puton--filter">
+              <picture class="o-frame o-frame--switch-l">
+                <source type="image/avif" srcset="/img/slider-img03.avif" />
+                <source type="image/webp" srcset="/img/slider-img03.webp" />
+                <img
+                  src="/img/slider-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="c-hero-copy o-cover__middle">
+                  <span class="c-display-m u-text-weight-b u-mb-l"
+                    >10周年記念<br class="u-pc-only" />キャンペーン実施中！</span
+                  >
+                  <a href="#" class="o-box o-box--button o-box--rect-button o-box--slide-btn u-max-item u-block-center">
+                    <span class="o-icon-parent o-icon-parent--center c-display-s">
+                      <span class="u-font-en-con">CAMPAIGN</span>
+                      <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                        <path
+                          d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- // Slide -->
+          <!-- // Slides -->
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- // Slider -->
       <div class="o-box o-box--transparent u-bg-qua u-pb-2xl">
         <div class="o-center o-center--content">
-          <h2 class="c-sec-heading u-text-center u-text-weight-b u-font-en">Information</h2>
+          <h2 class="c-sec-heading u-text-center u-text-weight-b u-font-en">News</h2>
           <ul class="o-stack o-stack--m u-mb-l">
             <li class="o-sidebar">
               <time class="c-content-l u-font-en-con u-text-weight-b">2023.00.00</time>
@@ -121,99 +314,252 @@
           </div>
         </div>
       </div>
+      <div class="o-box o-box--transparent o-center u-pb-2xl u-bg-gradient">
+        <h2 class="c-sec-heading u-text-center u-text-weight-b u-font-en">PRODUCT</h2>
+        <ul class="o-grid o-grid--quart u-mb-l">
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img01.avif" />
+                <source type="image/webp" srcset="/img/product-img01.webp" />
+                <img
+                  src="/img/product-img01.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img02.avif" />
+                <source type="image/webp" srcset="/img/product-img02.webp" />
+                <img
+                  src="/img/product-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img03.avif" />
+                <source type="image/webp" srcset="/img/product-img03.webp" />
+                <img
+                  src="/img/product-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img04.avif" />
+                <source type="image/webp" srcset="/img/product-img04.webp" />
+                <img
+                  src="/img/product-img04.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="u-text-center">
+          <a href="#" class="o-box o-box--button o-box--rect-button o-box--slide-btn u-max-item u-block-center">
+            <span class="o-icon-parent o-icon-parent--center">
+              <span class="u-font-en-con">PRODUCT</span>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                <path
+                  d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="o-box o-box--transparent u-bg-qua u-pb-2xl">
+        <div class="o-center o-center--content">
+          <h2 class="c-sec-heading u-text-center u-text-weight-b">REVIEW</h2>
+          <div class="o-cluster o-cluster--gap-s u-max-item u-block-center u-mb-l">
+            <span
+              class="o-cluster o-cluster--middle c-review-stars c-display-s u-text-secondary"
+              data-rate="3"
+              aria-label="3 stars out of 5"
+            >
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+            <span class="c-display-s u-font-en-con u-text-weight-b u-text-primary">3</span>
+            <span class="o-icon-parent o-icon-parent--center c-display-xs">
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M256 31.1c-141.4 0-255.1 93.12-255.1 208c0 49.62 21.35 94.98 56.97 130.7c-12.5 50.37-54.27 95.27-54.77 95.77c-2.25 2.25-2.875 5.734-1.5 8.734c1.249 3 4.021 4.766 7.271 4.766c66.25 0 115.1-31.76 140.6-51.39c32.63 12.25 69.02 19.39 107.4 19.39c141.4 0 255.1-93.13 255.1-207.1S397.4 31.1 256 31.1zM127.1 271.1c-17.75 0-32-14.25-32-31.1s14.25-32 32-32s32 14.25 32 32S145.7 271.1 127.1 271.1zM256 271.1c-17.75 0-31.1-14.25-31.1-31.1s14.25-32 31.1-32s31.1 14.25 31.1 32S273.8 271.1 256 271.1zM383.1 271.1c-17.75 0-32-14.25-32-31.1s14.25-32 32-32s32 14.25 32 32S401.7 271.1 383.1 271.1z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <span class="c-display-2xs u-text-primary u-text-weight-b"
+                ><span class="c-display-xs u-font-en-con">1</span>件</span
+              >
+            </span>
+          </div>
+          <ul class="o-stack o-stack--l u-mb-xl">
+            <li class="o-stack o-stack--s u-bg-secondary u-pt-m u-pb-m u-pr-m u-pl-m">
+              <span class="o-cluster o-cluster--middle o-cluster--gap-s">
+                <span class="c-reviewer-pict">
+                  <picture class="o-frame o-frame--round"
+                    ><source type="image/avif" srcset="/img/profile.avif" />
+                    <source type="image/webp" srcset="/img/profile.webp" />
+                    <img
+                      src="/img/profile.png"
+                      width="100%"
+                      height="100%"
+                      loading="lazy"
+                      decoding="async"
+                      fetchpriority="low"
+                      alt=""
+                    />
+                  </picture>
+                </span>
+                <span class="u-text-weight-b c-content-m">口コミ太郎</span>
+                <time class="u-font-en-con u-text-weight-m c-suppl-l">20YY.mm.dd</time>
+              </span>
+              <span class="o-cluster o-cluster--middle c-review-stars" data-rate="3" aria-label="3 stars out of 5">
+                <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </span>
+              <p class="c-content-l u-text-trim u-text-trim--three-line">
+                口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文
+              </p>
+            </li>
+          </ul>
+          <div class="u-text-center">
+            <a class="o-box o-box--button o-box--rect-button o-box--primary-button o-icon-parent" href="#">
+              一覧を見る
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                <path
+                  d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="o-center u-pb-2xl">
         <h2 class="c-sec-heading u-text-center u-text-weight-b u-font-en">What's New</h2>
         <ul class="o-grid o-grid--tri u-mb-xl">
-          <li>
-            <a href="#" class="o-box o-stack c-link-card u-bg-qua">
-              <picture class="o-frame">
-                <source type="image/avif" srcset="/img/thumb.avif" />
-                <source type="image/webp" srcset="/img/thumb.webp" />
-                <img
-                  src="/img/thumb.png"
-                  width="100%"
-                  height="100%"
-                  loading="lazy"
-                  decoding="async"
-                  fetchpriority="low"
-                  alt=""
-                />
-              </picture>
-              <span class="o-stack o-stack--s u-pt-l u-pb-l u-pr-m u-pl-m">
-                <span class="o-cluster o-cluster--middle">
-                  <time class="c-content-l u-font-en-con u-text-weight-m" datetime="2023-11-30">2023.11.30</time>
-                  <span class="o-box o-box--round-label c-label-m u-bg-primary">未分類</span>
-                </span>
-                <span class="c-content-l u-text-trim u-text-trim--two-line u-text-weight-b">Hello world!</span>
-                <span class="c-content-m u-text-secondary">
-                  <span class="u-font-en-con u-text-weight-m">27</span>回表示・読了見込<span
-                    class="u-font-en-con u-text-weight-m"
-                    >0</span
-                  >分
-                </span>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="o-box o-stack c-link-card u-bg-qua">
-              <picture class="o-frame">
-                <source type="image/avif" srcset="/img/thumb.avif" />
-                <source type="image/webp" srcset="/img/thumb.webp" />
-                <img
-                  src="/img/thumb.png"
-                  width="100%"
-                  height="100%"
-                  loading="lazy"
-                  decoding="async"
-                  fetchpriority="low"
-                  alt=""
-                />
-              </picture>
-              <span class="o-stack o-stack--s u-pt-l u-pb-l u-pr-m u-pl-m">
-                <span class="o-cluster o-cluster--middle">
-                  <time class="c-content-l u-font-en-con u-text-weight-m" datetime="2023-11-30">2023.11.30</time>
-                  <span class="o-box o-box--round-label c-label-m u-bg-primary">未分類</span>
-                </span>
-                <span class="c-content-l u-text-trim u-text-trim--two-line u-text-weight-b">Hello world!</span>
-                <span class="c-content-m u-text-secondary">
-                  <span class="u-font-en-con u-text-weight-m">27</span>回表示・読了見込<span
-                    class="u-font-en-con u-text-weight-m"
-                    >0</span
-                  >分
-                </span>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="o-box o-stack c-link-card u-bg-qua">
-              <picture class="o-frame">
-                <source type="image/avif" srcset="/img/thumb.avif" />
-                <source type="image/webp" srcset="/img/thumb.webp" />
-                <img
-                  src="/img/thumb.png"
-                  width="100%"
-                  height="100%"
-                  loading="lazy"
-                  decoding="async"
-                  fetchpriority="low"
-                  alt=""
-                />
-              </picture>
-              <span class="o-stack o-stack--s u-pt-l u-pb-l u-pr-m u-pl-m">
-                <span class="o-cluster o-cluster--middle">
-                  <time class="c-content-l u-font-en-con u-text-weight-m" datetime="2023-11-30">2023.11.30</time>
-                  <span class="o-box o-box--round-label c-label-m u-bg-primary">未分類</span>
-                </span>
-                <span class="c-content-l u-text-trim u-text-trim--two-line u-text-weight-b">Hello world!</span>
-                <span class="c-content-m u-text-secondary">
-                  <span class="u-font-en-con u-text-weight-m">27</span>回表示・読了見込<span
-                    class="u-font-en-con u-text-weight-m"
-                    >0</span
-                  >分
-                </span>
-              </span>
-            </a>
-          </li>
           <li>
             <a href="#" class="o-box o-stack c-link-card u-bg-qua">
               <picture class="o-frame">
@@ -390,74 +736,6 @@
             </ul>
           </dd>
         </dl>
-        <h2 class="c-sec-heading u-text-weight-b">アクセス</h2>
-        <div class="o-sidebar">
-          <div class="o-sidebar__narrow">
-            <ul class="c-disc-list u-mb-l">
-              <li class="c-content-l">JR大阪駅から徒歩n分</li>
-              <li class="c-content-l">各線梅田駅から徒歩n分</li>
-            </ul>
-            <a
-              href="https://maps.app.goo.gl/VfNydfqzmp4hEZKw7"
-              target="_blank"
-              rel="noopener"
-              class="o-box o-box--button o-box--rect-button u-mb-xl"
-            >
-              <span class="o-icon-parent">
-                <span class="u-flex-shrink-none">Google Maps</span>
-                <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 132.3">
-                  <path
-                    fill="#1a73e8"
-                    d="M60.2 2.2C55.8.8 51 0 46.1 0 32 0 19.3 6.4 10.8 16.5l21.8 18.3L60.2 2.2z"
-                  ></path>
-                  <path
-                    fill="#ea4335"
-                    d="M10.8 16.5C4.1 24.5 0 34.9 0 46.1c0 8.7 1.7 15.7 4.6 22l28-33.3-21.8-18.3z"
-                  ></path>
-                  <path
-                    fill="#4285f4"
-                    d="M46.2 28.5c9.8 0 17.7 7.9 17.7 17.7 0 4.3-1.6 8.3-4.2 11.4 0 0 13.9-16.6 27.5-32.7-5.6-10.8-15.3-19-27-22.7L32.6 34.8c3.3-3.8 8.1-6.3 13.6-6.3"
-                  ></path>
-                  <path
-                    fill="#fbbc04"
-                    d="M46.2 63.8c-9.8 0-17.7-7.9-17.7-17.7 0-4.3 1.5-8.3 4.1-11.3l-28 33.3c4.8 10.6 12.8 19.2 21 29.9l34.1-40.5c-3.3 3.9-8.1 6.3-13.5 6.3"
-                  ></path>
-                  <path
-                    fill="#34a853"
-                    d="M59.1 109.2c15.4-24.1 33.3-35 33.3-63 0-7.7-1.9-14.9-5.2-21.3L25.6 98c2.6 3.4 5.3 7.3 7.9 11.3 9.4 14.5 6.8 23.1 12.8 23.1s3.4-8.7 12.8-23.2"
-                  ></path>
-                </svg>
-              </span>
-            </a>
-            <div class="o-stack o-stack--s">
-              <dl class="o-cluster">
-                <dt class="u-txt-weight-b c-content-l">営業時間</dt>
-                <dd class="c-content-l">HH:MM〜HH:MM</dd>
-              </dl>
-              <dl class="o-cluster">
-                <dt class="u-txt-weight-b c-content-l">定休日</dt>
-                <dd class="c-content-l">土日祝・年末年始</dd>
-              </dl>
-              <p class="c-notes c-suppl-l">営業時間、定休日ともに、施設に準じる</p>
-            </div>
-          </div>
-          <div class="o-sidebar__wide">
-            <div class="o-frame">
-              <iframe
-                class="c-lazy-map"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.970528685342!2d135.49183357574483!3d34.70592327291773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e68e5570e51f%3A0xb0e6e493c405c979!2z44CSNTMwLTAwMTEg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65aSn5rex55S677yT4oiS77yR!5e0!3m2!1sja!2sjp!4v1704696233017!5m2!1sja!2sjp"
-                width="100%"
-                height="100%"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                title="Google Maps"
-              ></iframe>
-            </div>
-          </div>
-        </div>
       </div>
       <nav class="o-center u-mt-xl u-mb-xl">
         <ol class="o-reel o-reel--breadcrumb">
@@ -1078,11 +1356,11 @@
         <p class="c-content-l">必要な情報を入力して、「送信する」ボタンを押してください。</p>
         <form action="#">
           <dl class="o-sidebar o-sidebar--table">
-            <dt class="o-box o-box--thead c-content-l">お名前</dt>
+            <dt class="o-box o-box--thead c-content-l u-bg-secondary">お名前</dt>
             <dd class="o-box o-box--tbody c-content-l">
               <input type="text" class="o-box o-box--input u-full-width u-bg-qua c-content-l" placeholder="例)お名前" />
             </dd>
-            <dt class="o-box o-box--thead c-content-l">性別</dt>
+            <dt class="o-box o-box--thead c-content-l u-bg-secondary">性別</dt>
             <dd class="o-box o-box--tbody c-content-l">
               <div class="o-cluster">
                 <label class="o-icon-parent o-icon-parent--center o-icon-parent--form-item">
@@ -1093,7 +1371,7 @@
                 </label>
               </div>
             </dd>
-            <dt class="o-box o-box--thead c-content-l">連絡方法</dt>
+            <dt class="o-box o-box--thead c-content-l u-bg-secondary">連絡方法</dt>
             <dd class="o-box o-box--tbody c-content-l">
               <div class="o-cluster">
                 <label class="o-icon-parent o-icon-parent--center o-icon-parent--form-item">
@@ -1104,7 +1382,7 @@
                 </label>
               </div>
             </dd>
-            <dt class="o-box o-box--thead c-content-l">
+            <dt class="o-box o-box--thead c-content-l u-bg-secondary">
               <span class="o-icon-parent u-full-width">
                 メールアドレス
                 <span class="o-icon o-icon--required u-bg-primary u-text-weight-b u-flex-shrink-none u-block-right"
@@ -1119,7 +1397,7 @@
                 placeholder="例)info@examples.com"
               />
             </dd>
-            <dt class="o-box o-box--thead c-content-l">お問い合わせ内容</dt>
+            <dt class="o-box o-box--thead c-content-l u-bg-secondary">お問い合わせ内容</dt>
             <dd class="o-box o-box--tbody c-content-l">
               <textarea
                 name="your-message"
@@ -2376,11 +2654,1088 @@
         </ol>
       </nav>
       <!-- //post single -->
+      <!-- review -->
+      <div class="o-box o-box--transparent o-center u-bg-qua u-pb-2xl">
+        <h1 class="c-sec-heading u-text-center u-text-weight-b">お客様の声</h1>
+        <div class="o-cluster o-cluster--gap-s u-max-item u-block-center u-mb-l">
+          <span
+            class="o-cluster o-cluster--middle c-review-stars c-display-s u-text-secondary"
+            data-rate="3"
+            aria-label="3 stars out of 5"
+          >
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </span>
+          <span class="c-display-s u-font-en-con u-text-weight-b u-text-primary">3</span>
+          <span class="o-icon-parent o-icon-parent--center c-display-xs">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M256 31.1c-141.4 0-255.1 93.12-255.1 208c0 49.62 21.35 94.98 56.97 130.7c-12.5 50.37-54.27 95.27-54.77 95.77c-2.25 2.25-2.875 5.734-1.5 8.734c1.249 3 4.021 4.766 7.271 4.766c66.25 0 115.1-31.76 140.6-51.39c32.63 12.25 69.02 19.39 107.4 19.39c141.4 0 255.1-93.13 255.1-207.1S397.4 31.1 256 31.1zM127.1 271.1c-17.75 0-32-14.25-32-31.1s14.25-32 32-32s32 14.25 32 32S145.7 271.1 127.1 271.1zM256 271.1c-17.75 0-31.1-14.25-31.1-31.1s14.25-32 31.1-32s31.1 14.25 31.1 32S273.8 271.1 256 271.1zM383.1 271.1c-17.75 0-32-14.25-32-31.1s14.25-32 32-32s32 14.25 32 32S401.7 271.1 383.1 271.1z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <span class="c-display-2xs u-text-primary u-text-weight-b"
+              ><span class="c-display-xs u-font-en-con">1</span>件</span
+            >
+          </span>
+        </div>
+        <ul class="o-stack o-stack--l u-mb-xl">
+          <li class="o-stack o-stack--s u-bg-secondary u-pt-m u-pb-m u-pr-m u-pl-m">
+            <span class="o-cluster o-cluster--middle o-cluster--gap-s">
+              <span class="c-reviewer-pict">
+                <picture class="o-frame o-frame--round"
+                  ><source type="image/avif" srcset="/img/profile.avif" />
+                  <source type="image/webp" srcset="/img/profile.webp" />
+                  <img
+                    src="/img/profile.png"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                    decoding="async"
+                    fetchpriority="low"
+                    alt=""
+                  />
+                </picture>
+              </span>
+              <span class="u-text-weight-b c-content-m">口コミ太郎</span>
+              <time class="u-font-en-con u-text-weight-m c-suppl-l">20YY.mm.dd</time>
+            </span>
+            <span class="o-cluster o-cluster--middle c-review-stars" data-rate="3" aria-label="3 stars out of 5">
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+            <p class="c-content-l u-text-trim u-text-trim--three-line">
+              口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文口コミ本文
+            </p>
+          </li>
+        </ul>
+        <nav class="o-center u-mt-xl" aria-label="Pagination">
+          <ol class="o-cluster o-cluster--center o-cluster--gap-s">
+            <li>
+              <a href="#" class="o-box o-box--button o-box--square-button" aria-label="Previous">
+                <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                  <path
+                    d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="o-box o-box--button o-box--square-button u-font-en-con" aria-label="Goto Page 1">
+                1
+              </a>
+            </li>
+            <li>
+              <a href="#" class="o-box o-box--button o-box--square-button u-font-en-con" aria-label="Goto Page 1">
+                2
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="o-box o-box--button o-box--square-button u-font-en-con"
+                aria-label="Current Page"
+                aria-current="true"
+              >
+                3
+              </a>
+            </li>
+            <li>
+              <a href="#" class="o-box o-box--button o-box--square-button u-font-en-con" aria-label="Goto Page 1">
+                4
+              </a>
+            </li>
+            <li>
+              <a href="#" class="o-box o-box--button o-box--square-button u-font-en-con" aria-label="Goto Page 1">
+                5
+              </a>
+            </li>
+            <li>
+              <a href="#" class="o-box o-box--button o-box--square-button" aria-label="Next">
+                <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                  <path
+                    d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+      <nav class="o-center u-mt-xl u-mb-xl">
+        <ol class="o-reel o-reel--breadcrumb">
+          <li class="c-breadcrumb-item">
+            <a href="#" class="o-icon-parent c-text-link c-content-l">
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                <path
+                  d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              ホーム
+            </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> ブログ一覧 </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> サンプルブログ </a>
+          </li>
+        </ol>
+      </nav>
+      <!-- aboutus -->
+      <div class="o-box o-box--transparent o-center u-bg-qua u-pb-2xl">
+        <h1 class="c-heading u-text-weight-b">About Us</h1>
+        <dl class="o-sidebar o-sidebar--table">
+          <dt class="o-box o-box--thead o-box--ghost-thead c-content-l">営業時間</dt>
+          <dd class="o-box o-box--tbody o-box--ghost-tbody c-content-l">
+            <span class="u-font-en-con">10:00 ~ 19:00</span>
+          </dd>
+          <dt class="o-box o-box--thead o-box--ghost-thead c-content-l">定休日</dt>
+          <dd class="o-box o-box--tbody o-box--ghost-tbody c-content-l">土日祝・年末年始</dd>
+          <dt class="o-box o-box--thead o-box--ghost-thead c-content-l">所在地</dt>
+          <dd class="o-box o-box--tbody o-box--ghost-tbody c-content-l">
+            〒530-0011<br />大阪府大阪市北区大深町3-1 グランフロント大阪
+          </dd>
+          <dt class="o-box o-box--thead o-box--ghost-thead c-content-l">電話番号</dt>
+          <dd class="o-box o-box--tbody o-box--ghost-tbody c-content-l">
+            <a href="#" class="c-text-link c-text-link--underline">000-0000-0000</a>
+          </dd>
+          <dt class="o-box o-box--thead o-box--ghost-thead c-content-l">アクセス</dt>
+          <dd class="o-box o-box--tbody o-box--ghost-tbody c-content-l">JR大阪駅から徒歩n分</dd>
+          <dt class="o-box o-box--thead o-box--ghost-thead c-content-l">駐車場</dt>
+          <dd class="o-box o-box--tbody o-box--ghost-tbody c-content-l">
+            あり<br />敷地内にnn台有り<br />近隣にコインパーキングあり
+          </dd>
+          <dt class="o-box o-box--thead o-box--ghost-thead c-content-l">最寄駅</dt>
+          <dd class="o-box o-box--tbody o-box--ghost-tbody c-content-l">JR大阪駅</dd>
+          <dt class="o-box o-box--thead o-box--ghost-thead c-content-l">お支払い方法</dt>
+          <dd class="o-box o-box--tbody o-box--ghost-tbody c-content-l">
+            <ul class="c-disc-list">
+              <li>現金</li>
+              <li>クレジットカード<br />(VISA、Master、JCB、AMEX、Diners、Discover)</li>
+              <li>QRコード<br />(PayPay、d払い、微信支付/WeChat Pay、Alipay)</li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+      <nav class="o-center u-mt-xl u-mb-xl">
+        <ol class="o-reel o-reel--breadcrumb">
+          <li class="c-breadcrumb-item">
+            <a href="#" class="o-icon-parent c-text-link c-content-l">
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                <path
+                  d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              ホーム
+            </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> ブログ一覧 </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> サンプルブログ </a>
+          </li>
+        </ol>
+      </nav>
+      <!-- // aboutus -->
+      <!-- gallery -->
+      <div class="o-box o-box--transparent o-center u-pb-2xl">
+        <h1 class="c-heading u-text-weight-b">ギャラリー</h1>
+        <ul class="o-grid o-grid--tri" id="photos">
+          <li>
+            <a href="/img/product-img01.jpg" class="c-lightbox-photo" target="_blank" rel="noopener">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img01.avif" />
+                <source type="image/webp" srcset="/img/product-img01.webp" />
+                <img
+                  src="/img/product-img01.jpg"
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
+                  alt=""
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a href="/img/product-img02.jpg" class="c-lightbox-photo" target="_blank" rel="noopener">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img02.avif" />
+                <source type="image/webp" srcset="/img/product-img02.webp" />
+                <img
+                  src="/img/product-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
+                  alt=""
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a href="/img/product-img03.jpg" class="c-lightbox-photo" target="_blank" rel="noopener">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img03.avif" />
+                <source type="image/webp" srcset="/img/product-img03.webp" />
+                <img
+                  src="/img/product-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
+                  alt=""
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a href="/img/product-img04.jpg" class="c-lightbox-photo" target="_blank" rel="noopener">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img04.avif" />
+                <source type="image/webp" srcset="/img/product-img04.webp" />
+                <img
+                  src="/img/product-img04.jpg"
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
+                  alt=""
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a href="/img/hero.png" class="c-lightbox-photo" target="_blank" rel="noopener">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/hero.avif" />
+                <source type="image/webp" srcset="/img/hero.webp" />
+                <img
+                  src="/img/hero.png"
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
+                  alt=""
+                />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <nav class="o-center u-mt-xl u-mb-xl">
+        <ol class="o-reel o-reel--breadcrumb">
+          <li class="c-breadcrumb-item">
+            <a href="#" class="o-icon-parent c-text-link c-content-l">
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                <path
+                  d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              ホーム
+            </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> ブログ一覧 </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> サンプルブログ </a>
+          </li>
+        </ol>
+      </nav>
+      <!-- // gallery -->
+      <!-- product -->
+      <div class="o-box o-box--transparent o-center u-bg-qua u-pb-2xl">
+        <h1 class="c-heading u-text-weight-b">商品一覧</h1>
+        <ul class="o-grid o-grid--quart">
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img01.avif" />
+                <source type="image/webp" srcset="/img/product-img01.webp" />
+                <img
+                  src="/img/product-img01.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img02.avif" />
+                <source type="image/webp" srcset="/img/product-img02.webp" />
+                <img
+                  src="/img/product-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img03.avif" />
+                <source type="image/webp" srcset="/img/product-img03.webp" />
+                <img
+                  src="/img/product-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img04.avif" />
+                <source type="image/webp" srcset="/img/product-img04.webp" />
+                <img
+                  src="/img/product-img04.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img01.avif" />
+                <source type="image/webp" srcset="/img/product-img01.webp" />
+                <img
+                  src="/img/product-img01.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img02.avif" />
+                <source type="image/webp" srcset="/img/product-img02.webp" />
+                <img
+                  src="/img/product-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img03.avif" />
+                <source type="image/webp" srcset="/img/product-img03.webp" />
+                <img
+                  src="/img/product-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img04.avif" />
+                <source type="image/webp" srcset="/img/product-img04.webp" />
+                <img
+                  src="/img/product-img04.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img01.avif" />
+                <source type="image/webp" srcset="/img/product-img01.webp" />
+                <img
+                  src="/img/product-img01.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img02.avif" />
+                <source type="image/webp" srcset="/img/product-img02.webp" />
+                <img
+                  src="/img/product-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img03.avif" />
+                <source type="image/webp" srcset="/img/product-img03.webp" />
+                <img
+                  src="/img/product-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img04.avif" />
+                <source type="image/webp" srcset="/img/product-img04.webp" />
+                <img
+                  src="/img/product-img04.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <nav class="o-center u-mt-xl u-mb-xl">
+        <ol class="o-reel o-reel--breadcrumb">
+          <li class="c-breadcrumb-item">
+            <a href="#" class="o-icon-parent c-text-link c-content-l">
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                <path
+                  d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              ホーム
+            </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> ブログ一覧 </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> サンプルブログ </a>
+          </li>
+        </ol>
+      </nav>
+      <!-- // product -->
+      <!-- product single -->
+      <article class="o-box o-box--post o-center o-center--content u-bg-qua u-mt-2xl u-pb-2xl">
+        <h1 class="c-heading">ダミー商品</h1>
+        <div class="o-stack o-stack--l">
+          <picture class="o-frame">
+            <source type="image/avif" srcset="/img/product-img01.avif" />
+            <source type="image/webp" srcset="/img/product-img01.webp" />
+            <img src="/img/product-img01.jpg" width="100%" height="100%" decoding="async" fetchpriority="high" alt="" />
+          </picture>
+          <article class="c-entry">
+            <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+          </article>
+          <h2 class="c-sec-heading">シェア・共有</h2>
+          <div class="c-share-parent">
+            <input
+              type="text"
+              class="o-box o-box--input o-box--share c-content-l u-full-width"
+              value="https://examples.com/news/#/"
+              readonly=""
+            />
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M64 464H288c8.8 0 16-7.2 16-16V384h48v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64h64v48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16zM224 304H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H224c-8.8 0-16 7.2-16 16V288c0 8.8 7.2 16 16 16zm-64-16V64c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V288c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </article>
+      <div class="o-box o-box--transparent o-center u-pb-2xl">
+        <h2 class="c-sec-heading u-text-weight-b">その他の商品</h2>
+        <ul class="o-grid o-grid--quart">
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img01.avif" />
+                <source type="image/webp" srcset="/img/product-img01.webp" />
+                <img
+                  src="/img/product-img01.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img02.avif" />
+                <source type="image/webp" srcset="/img/product-img02.webp" />
+                <img
+                  src="/img/product-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img03.avif" />
+                <source type="image/webp" srcset="/img/product-img03.webp" />
+                <img
+                  src="/img/product-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img04.avif" />
+                <source type="image/webp" srcset="/img/product-img04.webp" />
+                <img
+                  src="/img/product-img04.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <h2 class="c-sec-heading u-text-weight-b">新着商品</h2>
+        <ul class="o-grid o-grid--quart">
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img01.avif" />
+                <source type="image/webp" srcset="/img/product-img01.webp" />
+                <img
+                  src="/img/product-img01.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img02.avif" />
+                <source type="image/webp" srcset="/img/product-img02.webp" />
+                <img
+                  src="/img/product-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img03.avif" />
+                <source type="image/webp" srcset="/img/product-img03.webp" />
+                <img
+                  src="/img/product-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img04.avif" />
+                <source type="image/webp" srcset="/img/product-img04.webp" />
+                <img
+                  src="/img/product-img04.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <h2 class="c-sec-heading u-text-weight-b">人気商品</h2>
+        <ul class="o-grid o-grid--quart">
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img01.avif" />
+                <source type="image/webp" srcset="/img/product-img01.webp" />
+                <img
+                  src="/img/product-img01.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img02.avif" />
+                <source type="image/webp" srcset="/img/product-img02.webp" />
+                <img
+                  src="/img/product-img02.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img03.avif" />
+                <source type="image/webp" srcset="/img/product-img03.webp" />
+                <img
+                  src="/img/product-img03.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="c-puton c-puton--filter c-puton-link" href="#">
+              <picture class="o-frame o-frame--square">
+                <source type="image/avif" srcset="/img/product-img04.avif" />
+                <source type="image/webp" srcset="/img/product-img04.webp" />
+                <img
+                  src="/img/product-img04.jpg"
+                  width="100%"
+                  height="100%"
+                  decoding="async"
+                  fetchpriority="high"
+                  alt=""
+                />
+              </picture>
+              <div class="c-puton__inner o-cover">
+                <div class="o-stack o-cover__bottom u-pr-m u-pl-m">
+                  <span class="c-display-xs u-text-weight-m">商品名</span>
+                  <span class="c-display-s u-text-weight-b u-font-en-con">&yen;0,000</span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="u-text-center u-mt-xl">
+          <a href="#" class="o-box o-box--button o-box--rect-button o-icon-parent">
+            一覧を見る
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+              <path
+                d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <nav class="o-center u-mt-xl u-mb-xl">
+        <ol class="o-reel o-reel--breadcrumb">
+          <li class="c-breadcrumb-item">
+            <a href="#" class="o-icon-parent c-text-link c-content-l">
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.-->
+                <path
+                  d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              ホーム
+            </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> ブログ一覧 </a>
+          </li>
+          <li class="c-breadcrumb-item">
+            <a href="#" class="c-text-link c-content-l"> サンプルブログ </a>
+          </li>
+        </ol>
+      </nav>
+      <!-- // product single -->
     </main>
-    <div class="o-box o-box--transparent o-center u-bg-primary u-pt-2xl u-pb-2xl">
+    <div class="o-center u-bg-primary u-pt-2xl u-pb-2xl">
+      <div class="o-sidebar">
+        <div class="o-sidebar__narrow">
+          <h2 class="c-display-m u-text-weight-b u-mb-l">アクセス</h2>
+          <ul class="c-disc-list u-mb-l">
+            <li class="c-content-l">JR大阪駅から徒歩n分</li>
+            <li class="c-content-l">各線梅田駅から徒歩n分</li>
+          </ul>
+          <a
+            href="https://maps.app.goo.gl/VfNydfqzmp4hEZKw7"
+            target="_blank"
+            rel="noopener"
+            class="o-box o-box--button o-box--rect-button u-mb-xl"
+          >
+            <span class="o-icon-parent">
+              <span class="u-flex-shrink-none">Google Maps</span>
+              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 132.3">
+                <path
+                  fill="#1a73e8"
+                  d="M60.2 2.2C55.8.8 51 0 46.1 0 32 0 19.3 6.4 10.8 16.5l21.8 18.3L60.2 2.2z"
+                ></path>
+                <path
+                  fill="#ea4335"
+                  d="M10.8 16.5C4.1 24.5 0 34.9 0 46.1c0 8.7 1.7 15.7 4.6 22l28-33.3-21.8-18.3z"
+                ></path>
+                <path
+                  fill="#4285f4"
+                  d="M46.2 28.5c9.8 0 17.7 7.9 17.7 17.7 0 4.3-1.6 8.3-4.2 11.4 0 0 13.9-16.6 27.5-32.7-5.6-10.8-15.3-19-27-22.7L32.6 34.8c3.3-3.8 8.1-6.3 13.6-6.3"
+                ></path>
+                <path
+                  fill="#fbbc04"
+                  d="M46.2 63.8c-9.8 0-17.7-7.9-17.7-17.7 0-4.3 1.5-8.3 4.1-11.3l-28 33.3c4.8 10.6 12.8 19.2 21 29.9l34.1-40.5c-3.3 3.9-8.1 6.3-13.5 6.3"
+                ></path>
+                <path
+                  fill="#34a853"
+                  d="M59.1 109.2c15.4-24.1 33.3-35 33.3-63 0-7.7-1.9-14.9-5.2-21.3L25.6 98c2.6 3.4 5.3 7.3 7.9 11.3 9.4 14.5 6.8 23.1 12.8 23.1s3.4-8.7 12.8-23.2"
+                ></path>
+              </svg>
+            </span>
+          </a>
+          <div class="o-stack o-stack--s">
+            <dl class="o-cluster">
+              <dt class="u-txt-weight-b c-content-l">営業時間</dt>
+              <dd class="c-content-l">HH:MM〜HH:MM</dd>
+            </dl>
+            <dl class="o-cluster">
+              <dt class="u-txt-weight-b c-content-l">定休日</dt>
+              <dd class="c-content-l">土日祝・年末年始</dd>
+            </dl>
+            <p class="c-notes c-suppl-l">営業時間、定休日ともに、施設に準じる</p>
+          </div>
+        </div>
+        <div class="o-sidebar__wide">
+          <div class="o-frame o-frame--no-color">
+            <iframe
+              class="c-lazy-map"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.970528685342!2d135.49183357574483!3d34.70592327291773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e68e5570e51f%3A0xb0e6e493c405c979!2z44CSNTMwLTAwMTEg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65aSn5rex55S677yT4oiS77yR!5e0!3m2!1sja!2sjp!4v1704696233017!5m2!1sja!2sjp"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Google Maps"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="o-box o-box--transparent o-center u-bg-qua u-pt-2xl u-pb-2xl">
       <h2 class="o-stack u-text-center u-mb-m">
         <span class="c-display-m u-text-weight-b">お問い合わせ</span>
-        <span class="c-content-l u-text-weight-m">ご相談・ご質問は、こちらからお気軽にお問い合わせください。</span>
+        <span class="c-content-l u-text-weight-m">ご予約等は、こちらからお気軽にお問い合わせください。</span>
       </h2>
       <div class="o-stack o-stack--s u-text-center u-mb-m">
         <a
@@ -2413,76 +3768,17 @@
         </a>
       </div>
     </div>
-    <footer class="o-center c-footer u-pt-2xl u-pb-2xl">
-      <div class="o-sidebar u-mb-m">
-        <div class="o-stack o-stack--m o-sidebar__footLeft">
-          <ul class="o-cluster">
-            <li><a class="c-gnav-link c-content-l u-text-weight-b" href="#">トップ</a></li>
-            <li><a class="c-gnav-link c-content-l u-text-weight-b" href="#">会社情報</a></li>
-            <li><a class="c-gnav-link c-content-l u-text-weight-b" href="#">ブログ</a></li>
-            <li><a class="c-gnav-link c-content-l u-text-weight-b" href="#">お知らせ</a></li>
-            <li><a class="c-gnav-link c-content-l u-text-weight-b" href="#">お問い合わせ</a></li>
-          </ul>
-          <ul class="o-cluster">
-            <li><a class="c-gnav-link c-content-m" href="#">利用規約</a></li>
-            <li><a class="c-gnav-link c-content-m" href="#">プライバシーポリシー</a></li>
-          </ul>
-        </div>
-        <div class="o-sidebar__footRight">
-          <h3 class="c-display-xs u-text-weight-b u-font-en-con">Follow Us</h3>
-          <div class="o-cluster">
-            <a class="c-text-link c-display-m" href="https://www.facebook.com/" target="_blank" rel="noopener">
-              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path
-                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </a>
-            <a class="c-text-link c-display-m" href="https://twitter.com/" target="_blank" rel="noopener">
-              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </a>
-            <a class="c-text-link c-display-m" href="https://twitter.com/" target="_blank" rel="noopener">
-              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path
-                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-                  fill="currentColor"
-                />
-              </svg>
-            </a>
-            <a class="c-text-link c-display-m" href="https://www.instagram.com/" target="_blank" rel="noopener">
-              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </a>
-            <a class="c-text-link c-display-m" href="https://www.youtube.com/" target="_blank" rel="noopener">
-              <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path
-                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
-                  fill="currentColor"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="o-stack o-stack--s u-mb-l">
-        <a href="#" class="o-icon-parent o-icon-parent--center o-icon-parent--footer-logo u-max-item">
+    <footer class="o-center c-footer u-bg-gradient u-pt-m u-pb-l">
+      <ul class="o-cluster u-max-item u-block-center u-mb-m">
+        <li class="c-ft-item u-text-center"><a class="c-ft-link c-content-m" href="#">COMPANY</a></li>
+        <li class="c-ft-item u-text-center"><a class="c-ft-link c-content-m" href="#">TERMS</a></li>
+        <li class="c-ft-item u-text-center"><a class="c-ft-link c-content-m" href="#">PRIVACY POLICY</a></li>
+        <li class="c-ft-item u-text-center"><a class="c-ft-link c-content-m" href="#">INQUIRY</a></li>
+      </ul>
+      <div class="o-stack u-max-item u-block-center">
+        <a href="#" class="o-icon-parent o-icon-parent--center o-icon-parent--text-center c-logo-link">
           <svg
-            class="o-icon"
+            class="o-icon c-display-l"
             width="670"
             height="403"
             viewBox="0 0 670 403"
@@ -2505,9 +3801,38 @@
             <path d="M167.497 134.035L251.245 0L334.993 134.045L167.497 134.035Z" fill="#73B2E2"></path>
             <path d="M251.225 0L167.498 134.035L83.749 0H251.225Z" fill="#65A5DA"></path>
           </svg>
-          <span class="c-logo-label c-logo-label--footer u-font-logo u-flex-shrink-none">BLUE B NOSE</span>
+          <span class="c-display-m u-font-logo u-flex-shrink-none">BLUE B NOSE</span>
         </a>
-        <span class="c-suppl-l u-text-secondary">〒530-0011 大阪府大阪市北区大深町3-1 グランフロント大阪</span>
+        <h3 class="c-display-s u-text-weight-m u-font-en-con u-max-item u-block-center u-mt-m">Follow Us</h3>
+        <div class="o-cluster o-cluster--center">
+          <a class="c-sns-link c-display-m" href="#" target="_blank" rel="noopener" aria-label="Goto Facebook">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <a class="c-sns-link c-display-m" href="#" target="_blank" rel="noopener" aria-label="Goto Twitter">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <a class="c-sns-link c-display-m" href="#" target="_blank" rel="noopener" aria-label="Goto Instagram">
+            <svg class="o-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+        </div>
       </div>
       <p class="c-suppl-m u-font-en-con u-text-center">©︎ exapmles.com</p>
     </footer>
