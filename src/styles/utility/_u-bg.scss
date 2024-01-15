@@ -26,6 +26,6 @@
   background: linear-gradient(
     to bottom,
     map.get(setting.$sys-light, primary) 0%,
-    map.get(setting.$sys-dark, onprimary) 100%
+    map.get(setting.$sys-dark, onPrimary) 100%
   );
 }
